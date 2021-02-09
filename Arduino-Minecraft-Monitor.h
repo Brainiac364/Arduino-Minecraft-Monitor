@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include "IPAddress.h"
-#include <EthernetUdp.h>
+#include <WifiUdp.h>
 #include "Client.h"
 #include "Stream.h"
 
@@ -36,7 +36,7 @@ class ArduinoMinecraftMonitor {
     void interpretStatusPacket(char* receiveData, int packetSize);
     int readUntilNull(String* data, char* receiveData, int counter, int increment);
     //Internal Varibles
-    EthernetUDP udpPacket;
+    WifiUDP udpPacket;
     IPAddress minecraftServerIP; //Address of Minecraft Server
     uint16_t minecraftQueryPort;
     const unsigned long timeout = 5000;
