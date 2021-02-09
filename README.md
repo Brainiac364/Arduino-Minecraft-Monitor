@@ -2,7 +2,7 @@
 
 A Simple Arduino library to get the status of a Minecraft Server (players count, player names etc)
 
-Designed to work with the Arduino Ethernet Shield
+Designed to work with either the Arduino Ethernet Shield or ESP8266 boards
 
 ## Features
 
@@ -34,4 +34,4 @@ query.port=25565
 
 ## Installing
 
-Copy to the "libraries" folder located in your sketchbook folder.
+Download the .zip file and import using the IDE "Add .ZIP Library" function.  For more information see: https://www.arduino.cc/en/guide/libraries
