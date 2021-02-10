@@ -1,0 +1,13 @@
+ArduinoMinecraftMonitor	KEYWORD1
+getStats	KEYWORD2
+getMOTD	KEYWORD2
+getGameType	KEYWORD2
+getGameID	KEYWORD2
+getMCVersion	KEYWORD2
+getPlugins	KEYWORD2
+getMCMap	KEYWORD2
+getOnlinePlayers	KEYWORD2
+getMaxPlayers	KEYWORD2
+getHostPort	KEYWORD2
+getHostIP	KEYWORD2
+getPlayers	KEYWORD2
