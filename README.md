@@ -1,8 +1,9 @@
-# Arduino-Minecraft-Monitor
+# Arduino Minecraft Monitor
 
-A Simple Arduino library to get the status of a Minecraft Server (players count, player names etc)
+This is a simple Arduino library to get the status of a Minecraft Server.  
+It uses the Minecraft Query API to return information about the server, like the number of player slots, the number of players online, and their usernames.
 
-Designed to work with the Arduino Ethernet Shield
+It was originally designed to work with the Arduino Ethernet Shield but has been updated for use over WIFI with ESP8266 based boards.   
 
 ## Features
 
@@ -21,7 +22,7 @@ Data Returned:
 
 ## Tutorial
 
-Please see examples
+Examples are included and can be accessed through the "Examples from Custom Libraries"
 
 ## Notes
 
@@ -34,4 +35,5 @@ query.port=25565
 
 ## Installing
 
-Copy to the "libraries" folder located in your sketchbook folder.
+Download the library, and use the built in .ZIP Library adder in the Arduino IDE.  
+More info here: https://www.arduino.cc/en/guide/libraries#toc4
