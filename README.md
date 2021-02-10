@@ -37,3 +37,7 @@ query.port=25565
 
 Download the library, and use the built in .ZIP Library adder in the Arduino IDE.  
 More info here: https://www.arduino.cc/en/guide/libraries#toc4
+
+## Credits
+
+This library was originally written by Thomas Cope.  Please send him your gratitude.  I merely updated the library to be more user friendly and function on the WIFI boards, as well as cleaned up some of the documentation.
